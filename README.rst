@@ -1,12 +1,10 @@
-Arduino Irrigator
-#################
+Arduino Web-Server
+##################
 
-Arduino Irrigator is a simple project to water plants using just few components : 
+Arduino Web-Server is a simple project that creates a web server for automation. It uses the following components :
 
 * Arduino uno 
-* Arduino relay module
-* Arduino soil moisture sensor
-* Cheap water pump
+* Arduino ethernet shield W5100
 
 .. contents::
 
@@ -15,5 +13,4 @@ Arduino Irrigator is a simple project to water plants using just few components 
 Main Features
 =============
 
-* Read the soil moisture level 
-* Turns on/off water pump
+* Provides a simple web server
