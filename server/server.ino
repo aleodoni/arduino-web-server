@@ -35,7 +35,16 @@ void loop() {
           			client.println();
           			client.println("<!DOCTYPE HTML>");
           			client.println("<html>");
-          			client.println("<h1>Arduino server running</h1>");
+          			client.println("<head>");
+          			client.println("<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'></link>");
+          			client.println("</head>");
+          			client.println("<body>");
+          			client.println("<div class='jumbotron'>");
+          			client.println("<h1 class='display-3'>Arduino server running</h1>");
+          			client.println("<p class='lead'>This is a simple message from your arduino web server.</p>");
+          			client.println("<hr class='my-4'>");
+          			client.println("</div>");
+          			client.println("</body>");
           			client.println("</html>");
           			break;
 				}
